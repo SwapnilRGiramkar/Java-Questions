@@ -1,0 +1,93 @@
+Que.1)Write a method that returns the square of a number.
+Answer- Class Square
+	{
+		public static void main(String[]args)
+		{
+			int num=3;
+			System.out.println(Square(num));
+		}
+		public static int Square(int num)
+		{
+			return num*num;
+		}
+	}
+
+Que.2)What is the difference between a static method and a non-static method?
+Answer- ------------------static Method-----------------
+ 	1)The Method Which is Prefix with static keyword is called static method.
+	2)We can Write Static method in class block area.
+	3)Static method loads at Class loading process.
+	4)Static method we called in current class using method signature.
+	5)we call static class in another class using classname and method Signature.
+	6)Cannot access instance(object) variables directly.
+	7)example- public static void methodName (Formal Arguments)
+	------------------Non-Static Method-----------------
+	1)Method belongs to object (instance of class).
+	2)We write non-static method in class block area.
+	3)Method wich is not prefix with any modifiers.
+	4)Non static method called only through the object.
+	5)Memory location or loads at Object Creation time.
+	6)can access both static variables and instance of variable.
+	7)example-public void methodName (Formal Arguments).
+
+Que.3)Create a method that takes two integers and returns their maximum.
+Answer- class Max
+	{
+		public static void main(String[]args)
+		{
+			int a=10,b=20;
+			Syatem.out.println(maxNum(a,b));
+		}
+		public static int maxNum(int a,int b)
+		{
+			return a>b ? a : b;
+		}
+	}
+
+Que.4)What does the void return type mean in Java?
+Answer- 1)Used with keyword void.
+	2)No value need to be returned.
+	3)We used return; to exit the method early.
+	4)we cannot used return val/exp; its throws compile time error.
+	5)Used Print data,Update value,display UI,Logging etc.
+
+Que.5)Write a method called isEven(int num) that returns true if the number is even.
+Answer- class EvenOrOdd
+	{
+		public static void main(String[]args)
+		{ 
+			int num;
+			System.out.println(isEven(num));
+		}
+		public static boolean isEven(int num)
+		{
+			if(num%2==0)
+				return true;
+			return false;
+		}
+	}
+
+Que.6)What happens if a method is defined with a return type but doesn't return anything?
+Answer- Compiler Throws Comple time error Missing return Statement.
+
+Que.7)Can methods in Java be overloaded? Give an example.
+Answer- YES..!
+	Method with same name but different parameter list or different datatypes its called 
+	Method Overloading.
+
+QUE.8)What is method overloading vs method overriding?
+Answer- ------------------Method Overloading------------------
+	1)Same Method name but different parameters.
+	2)Belongs to same class
+	3)To perform similar task to different inputs.
+	4)return type can be same or different.
+	5)Compile time Polymorphism.
+	6)Inheritance not required.
+	-----------------Method Overriding--------------------
+	1)Same method name and parameter in child class.
+	2)Different class i.e.Inheritance.
+	3)To perform specific implementation in child.
+	4)Return type must be same or covarient.
+	5)Run-Time Polymorphism.
+	6)Inheritance required parent-child Relationship.
+
