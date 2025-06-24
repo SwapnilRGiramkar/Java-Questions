@@ -1,0 +1,39 @@
+Que.1)What is class in java ?
+Answer- 1)Class is userdefined non-primitive Datatype.
+	2)Which represents the blueprint of an object and provide all the specifications of object.
+	3)class is used for create object.
+
+Que.2)What is an object in java ?
+Answer- 1)Object is an block of memory which is created at runtime in HEAP area.
+	2)Which is represent real-world-entity.
+
+Que.3)How do you create a object of class in java ?
+Answer- 1)we can create a object using new keyword an dconstructor of a class.
+	2)"new" Keyword-is created memory at runtime in heap area.
+	3)Constructor-Constructor loads all the attributes and behaviours of the class into object.
+
+Que.4)Difference Between object and class?
+Answer- 1)Object -
+	  1)An object is an real world entity is use dfor unique representation it has certain behaviour,state             and identity.
+	  2)Known as instance of class.
+	  3)They are physical entities.
+	  4)object is created using new keyword.
+	  5)Consumes some memory space.
+	  6)create object as many time as we want.
+	2)Class-
+ 	  1)Collection of a similar type of objects.class are composed of name attributes and methods.
+	  2)Known as Blueprint of an object.
+	  3)they are logical entities.
+	  4)class is created using a class keyword.
+	  5)it doesent occupy any memory space.
+	  6)We can create class only once.
+
+Que.5)Can you create a multiple objects in same class?
+Answer-yes..! we can create multiple object i same class and every object has given block of memory in heap 
+       area and every object has an different reference.
+
+Que.6)What is the use of new Keyword?
+Answer- new keyword create a block of memory in heap area at runtime.
+
+Que.7)What happen swhen you not create a Constructor in a class?
+Answer- When we dont provide a constructor in a class Compiler implicitely added no Argument constructor to the        class.
