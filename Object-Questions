@@ -37,3 +37,23 @@ Answer- new keyword create a block of memory in heap area at runtime.
 
 Que.7)What happen swhen you not create a Constructor in a class?
 Answer- When we dont provide a constructor in a class Compiler implicitely added no Argument constructor to the        class.
+
+Que.8)Can a class have multiple constructors? If yes, how ?
+Answer-1)Yes..!Class have an multiple Constructors and we called its Constructor chaining.
+       2)We have an two Constructors in class 1)No argument  And 2)Parameterized Constructor i.e. proved 
+	class has an multiple constructors.
+
+Que.9)What are instance variables and how do they differ from local variables ?
+Answer-1)Scope of local variable is within method,constructor or block but Scope of instance variable within
+         the class.
+       2) if local variable Doesent have an default value but instance variable has an default value adde 
+ 	   by the compiler implicitely,
+       3)instance variable has an scope until object present and inastance variable initilized when 
+	object creation time. but loacal variable has an scope until method or block exit and local variable 
+	initilized when method or block initilized.
+
+Que.10)Explain the concept of a constructor and its purpose.
+Answer-1) Constructor name is same as class name.
+	2)Constructor load all non-static variable and non-static method or block into obkect.
+	3)Constructor always used eith new keyword or operator.new create block of memory in heap area.
+
