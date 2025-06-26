@@ -1,5 +1,5 @@
-Que.1)Write a Java class Car with attributes like model, color, and speed. Create objects and display their details.
-Answer-
+//Que.1)Write a Java class Car with attributes like model, color, and speed. Create objects and display their details.
+//Answer-
 package practice;
 
 public class Car 
@@ -32,7 +32,7 @@ public class Car
 	}
 
 }
--------------------------------------------------------------------------------------
+//-------------------------------------------------------------------------------------
 package practice;
 
 public class CarDriver
@@ -44,9 +44,9 @@ public class CarDriver
 	}
 
 }
----------------------------------------------------------------------------------------
-Que.2)Create a class Student with a method to calculate average marks. Create multiple objects and call the method.
-Answer-
+//---------------------------------------------------------------------------------------
+//Que.2)Create a class Student with a method to calculate average marks. Create multiple objects and call the method.
+//Answer-
 package practice;
 //Create a class Student with a method to calculate average marks. Create multiple objects and call the method.
 public class Student
@@ -89,7 +89,7 @@ public class Student
 	}
 
 }
----------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------
 package practice;
 //Create a class Student with a method to calculate average marks. Create multiple objects and call the method.
 public class StudentDriver
@@ -105,9 +105,9 @@ public class StudentDriver
 	}
 
 }
-----------------------------------------------------------------------------------------
-Que.3)Implement constructor overloading in a Book class.
-Answer-
+//----------------------------------------------------------------------------------------
+//Que.3)Implement constructor overloading in a Book class.
+//Answer-
 package practice;
 //Implement constructor overloading in a Book class.
 public class Book
@@ -147,7 +147,7 @@ public class Book
 		System.out.println("---------------------------");
 	}
 }
----------------------------------------------------------------------------
+//---------------------------------------------------------------------------
 package practice;
 //Implement constructor overloading in a Book class.
 public class BookDriver
@@ -160,9 +160,62 @@ public class BookDriver
 	}
 
 }
----------------------------------------------------------------------------
-Que.5)Create a class Rectangle with methods to calculate area and perimeter. Create objects and demonstrate usage.
-Answer-
+//---------------------------------------------------------------------------
+//Que.4)Write a program to show how multiple objects can share the same static variable.
+//Answer-
+package practice;
+//Write a program to show how multiple objects can share the same static variable.
+public class Watch 
+{
+	static String brand;
+	double price;
+	String color;
+	String type;
+	
+	public Watch() {
+		// TODO Auto-generated constructor stub
+	}
+	Watch(double price,String color,String type)
+	{
+		this.price=price;
+		this.color=color;
+		this.type=type;
+	}
+	
+	public void displayWatch()
+	{
+		System.out.println("Brand : "+brand);
+		System.out.println("Price : "+price);
+		System.out.println("Color : "+color);
+		System.out.println("type  :"+type);
+		System.out.println("---------------------------");
+	}
+}
+//---------------------------------------------------------------------
+package practice;
+
+public class WatchDriver 
+{
+	public static void main(String[] args) 
+	{
+		Watch w1=new Watch(4500.0, "maroon", "Analog");
+		w1.displayWatch();
+		
+		w1.brand="Rolex";
+		
+		w1.displayWatch();
+		
+		Watch w2=new Watch(25000.0, "black", "Digital");
+		w2.displayWatch();
+		
+		w2.brand="Titan";
+		
+		w2.displayWatch();
+	}
+}
+//--------------------------------------------------------------------------------
+//Que.5)Create a class Rectangle with methods to calculate area and perimeter. Create objects and demonstrate usage.
+//Answer-
 package practice;
 //Create a class Rectangle with methods to calculate area and perimeter. Create objects and demonstrate usage.
 public class Rectangle
@@ -195,7 +248,7 @@ public class Rectangle
 	}
 
 }
------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------
 package practice;
 
 public class RectangleDriver
@@ -206,4 +259,4 @@ public class RectangleDriver
 		r1.displayRectangle();
 	}
 }
----------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------
