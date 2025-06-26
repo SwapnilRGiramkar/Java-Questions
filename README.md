@@ -1,2 +1,2 @@
 # Java-Questions
-Daily Assignment Quetions Are here 
+Daily Assignment Quetions On Java Will be here
